@@ -18,9 +18,9 @@ module.exports = {
           `,
       });
 
-      ctx.send({ message: 'Correo enviado con éxito' });
+      ctx.send({ message: 'Correo enviado con éxito.' });
     } catch (error) {
-      ctx.send({ error: 'No se pudo enviar el correo' }, 500);
+      ctx.send({ error: 'No se pudo enviar el correo.' }, 500);
     }
   },
 };
