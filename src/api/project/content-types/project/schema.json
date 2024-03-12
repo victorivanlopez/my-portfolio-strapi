@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project"
+    "displayName": "Project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,20 +17,20 @@
       "required": true
     },
     "cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "icons": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "icons": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "demoURL": {
       "type": "string",
@@ -42,6 +43,11 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 95
     }
   }
 }
