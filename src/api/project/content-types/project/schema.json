@@ -38,16 +38,14 @@
     },
     "repoURL": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
     "description": {
-      "type": "text",
-      "required": true,
-      "maxLength": 95
+      "type": "blocks"
     }
   }
 }

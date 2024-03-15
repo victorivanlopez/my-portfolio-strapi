@@ -839,13 +839,9 @@ export interface ApiProjectProject extends Schema.CollectionType {
     cover: Attribute.Media & Attribute.Required;
     icons: Attribute.Media & Attribute.Required;
     demoURL: Attribute.String & Attribute.Required;
-    repoURL: Attribute.String & Attribute.Required;
+    repoURL: Attribute.String;
     slug: Attribute.UID<'api::project.project', 'title'>;
-    description: Attribute.Text &
-      Attribute.Required &
-      Attribute.SetMinMaxLength<{
-        maxLength: 95;
-      }>;
+    description: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
