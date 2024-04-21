@@ -837,11 +837,12 @@ export interface ApiProjectProject extends Schema.CollectionType {
   attributes: {
     title: Attribute.String & Attribute.Required;
     cover: Attribute.Media & Attribute.Required;
-    icons: Attribute.Media & Attribute.Required;
-    demoURL: Attribute.String & Attribute.Required;
+    technologies: Attribute.Media & Attribute.Required;
+    siteURL: Attribute.String & Attribute.Required;
     repoURL: Attribute.String;
     slug: Attribute.UID<'api::project.project', 'title'>;
     description: Attribute.Blocks;
+    client: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

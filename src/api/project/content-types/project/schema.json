@@ -24,7 +24,7 @@
         "images"
       ]
     },
-    "icons": {
+    "technologies": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -32,7 +32,7 @@
         "images"
       ]
     },
-    "demoURL": {
+    "siteURL": {
       "type": "string",
       "required": true
     },
@@ -46,6 +46,10 @@
     },
     "description": {
       "type": "blocks"
+    },
+    "client": {
+      "type": "string",
+      "required": true
     }
   }
 }
