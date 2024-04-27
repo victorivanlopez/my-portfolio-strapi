@@ -21,9 +21,9 @@ module.exports = ({ env }) => ({
         apiKey: env('RESEND_API_KEY'),
       },
       settings: {
-        defaultFrom: 'onboarding@resend.dev',
-        defaultReplyTo: 'onboarding@resend.dev',
+        defaultFrom: 'vlopez@victorivanlopez.com',
+        defaultReplyTo: 'vlopez@victorivanlopez.com',
       },
     }
-  }, 
+  },
 });
