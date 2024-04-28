@@ -21,8 +21,8 @@ module.exports = ({ env }) => ({
         apiKey: env('RESEND_API_KEY'),
       },
       settings: {
-        defaultFrom: 'vlopez@victorivanlopez.com',
-        defaultReplyTo: 'vlopez@victorivanlopez.com',
+        defaultFrom: 'info@victorivanlopez.com',
+        defaultReplyTo: 'info@victorivanlopez.com',
       },
     }
   },

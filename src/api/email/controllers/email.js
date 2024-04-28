@@ -9,7 +9,7 @@ module.exports = {
         subject,
         html:
           ` <html>
-              <h2>Nuevo mensaje de contacto</h2>
+              <h2>Mensaje desde formulario</h2>
               <p><strong>Nombre: </strong>${name}</p>
               ${(tel.length > 0) ? `<p><strong>Teléfono: </strong>${tel}</p>` : ''}
               <p><strong>Email: </strong>${email}</p>
